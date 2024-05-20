@@ -1,0 +1,193 @@
+{
+    "Carros": [
+        {
+            "codigo": 1,
+            "placa": "001-002",
+            "modelo": "Jetta",
+            "ano": "2014",
+            "nome_motorista": "Joao Augusto"
+        },
+        {
+            "codigo": 2,
+            "placa": "002-003",
+            "modelo": "Golf",
+            "ano": "2010",
+            "nome_motorista": "Simone Mendes"
+        },
+        {
+            "codigo": 3,
+            "placa": "003-004",
+            "modelo": "Passat",
+            "ano": "2023",
+            "nome_motorista": "Pedro Paulo"
+        }
+    ],
+    "Passageiros": [
+        {
+            "cpf": 10020030010,
+            "nome": "Cintia Cruz",
+            "email": "cintia.cruz@gmail.com",
+            "telefone": "51996539278",
+            "bairro": "Petropolis",
+            "meio_pagamento": "pix"
+        },
+        {
+            "cpf": 40050060020,
+            "nome": "Ana Castela",
+            "email": "ana.castela@gmail.com",
+            "telefone": "51999437207",
+            "bairro": "Higienopolis",
+            "meio_pagamento": "credito"
+        },
+        {
+            "cpf": 70080090030,
+            "nome": "Maisa Silva",
+            "email": "maisasilva01@gmail.com",
+            "telefone": "11996235241",
+            "bairro": "Mont Serrat",
+            "meio_pagamento": "credito"
+        },
+        {
+            "cpf": 15025035040,
+            "nome": "Luan Santana",
+            "email": "luansant@gmail.com",
+            "telefone": "45997988264",
+            "bairro": "Aldeia do Vale",
+            "meio_pagamento": "dinheiro"
+        },
+        {
+            "cpf": 25035045050,
+            "nome": "Maria Joaquina",
+            "email": "marijo@gmail.com",
+            "telefone": "1199294754",
+            "bairro": "Alphaville",
+            "meio_pagamento": "pix"
+        }
+    ],
+    "Viagens": [
+        {
+            "id": 1,
+            "kms": "20",
+            "carro_codigo": 1,
+            "passageiro_cpf": "10020030010",
+            "valor": "30.00"
+        },
+        {
+            "id": 2,
+            "kms": "15",
+            "carro_codigo": 2,
+            "passageiro_cpf": "40050060020",
+            "valor": "25.00"
+        },
+        {
+            "id": 3,
+            "kms": "10",
+            "carro_codigo": 3,
+            "passageiro_cpf": "70080090030",
+            "valor": "20.00"
+        },
+        {
+            "id": 4,
+            "kms": "150",
+            "carro_codigo": 1,
+            "passageiro_cpf": "25035045050",
+            "valor": "100.00"
+        },
+        {
+            "id": 5,
+            "kms": "200",
+            "carro_codigo": 2,
+            "passageiro_cpf": "15025035040",
+            "valor": "120.00"
+        },
+        {
+            "id": 6,
+            "kms": "300",
+            "carro_codigo": 3,
+            "passageiro_cpf": "10020030010",
+            "valor": "150.00"
+        },
+        {
+            "id": 7,
+            "kms": "12",
+            "carro_codigo": 1,
+            "passageiro_cpf": "40050060020",
+            "valor": "22.00"
+        },
+        {
+            "id": 8,
+            "kms": "18",
+            "carro_codigo": 2,
+            "passageiro_cpf": "15025035040",
+            "valor": "28.00"
+        },
+        {
+            "id": 9,
+            "kms": "250",
+            "carro_codigo": 3,
+            "passageiro_cpf": "25035045050",
+            "valor": "130.00"
+        },
+        {
+            "id": 10,
+            "kms": "5",
+            "carro_codigo": 1,
+            "passageiro_cpf": "40050060020",
+            "valor": "15.00"
+        }
+    ],
+    "Urbana": [
+        {
+            "viagem_id": 1,
+            "bairro_partida": "Petropolis",
+            "bairro_chegada": "Floresta"
+        },
+        {
+            "viagem_id": 2,
+            "bairro_partida": "Higienopolis",
+            "bairro_chegada": "Centro Historico"
+        },
+        {
+            "viagem_id": 3,
+            "bairro_partida": "Mont Serrat",
+            "bairro_chegada": "Partenon"
+        },
+        {
+            "viagem_id": 7,
+            "bairro_partida": "Partenon",
+            "bairro_chegada": "Sarandi"
+        },
+        {
+            "viagem_id": 8,
+            "bairro_partida": "Jardim Botanico",
+            "bairro_chegada": "Anchieta"
+        },
+        {
+            "viagem_id": 10,
+            "bairro_partida": "Menino Deus",
+            "bairro_chegada": "Floresta"
+        }
+    ],
+    "Interurbana": [
+        {
+            "viagem_id": 4,
+            "taxa_adicional": "10.00",
+            "cidade_destino": "Santo Andre"
+        },
+        {
+            "viagem_id": 5,
+            "taxa_adicional": "15.00",
+            "cidade_destino": "Goiania"
+        },
+        {
+            "viagem_id": 6,
+            "taxa_adicional": "20.00",
+            "cidade_destino": "Torres"
+        },
+        {
+            "viagem_id": 9,
+            "taxa_adicional": "12.00",
+            "cidade_destino": "Passo Fundo"
+        }
+    ]
+}
